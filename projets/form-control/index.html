@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercice JS 8 - Form control</title>
+</head>
+<body>
+    <main>
+        <section class="FormContainer">
+            <h1>Inscrivez-vous</h1>
+            <form id="sign-up-form" action="#">
+                <!-- Username -->
+                <label for="username">Nom d'utilisateur</label>
+                <div class="FormInput">
+                    <input type="text" name="signInUsername" id="username" placeholder="3 caractères minimum" data-check="invalid">
+                    <img id="username-success" src="success_icon.svg" alt="Success icon" class="ControlIcon">
+                    <img id="username-invalid" src="invalid_icon.svg" alt="Invalid icon" class="ControlIcon">
+                </div>
+                <p id="username-control-text" class="ControlText">Veuillez entrer un pseudo d'au moins 3 caractères.</p>
+                <!-- Mail -->
+                <label for="mail">Entrez votre email</label>
+                <div class="FormInput">
+                    <input type="email" name="signInMail" id="mail" placeholder="Votre email" data-check="invalid">
+                    <img id="mail-success" src="success_icon.svg" alt="Success icon" class="ControlIcon">
+                    <img id="mail-invalid" src="invalid_icon.svg" alt="Invalid icon" class="ControlIcon">
+                </div>
+                <p id="mail-control-text" class="ControlText">Veuillez entrer un email valide.</p>
+                <!-- Password -->
+                <label for="password">Mot de passe</label>
+                <div class="FormInput">
+                    <input type="password" name="signInPassword" id="password" placeholder="Votre mot de passe" data-check="invalid">
+                    <img id="password-success" src="success_icon.svg" alt="Success icon" class="ControlIcon">
+                    <img id="password-invalid" src="invalid_icon.svg" alt="Invalid icon" class="ControlIcon">
+                </div>
+                <p>Au moins un symbole, un chiffre, ainsi que 6 caractères minimum.</p>
+                <div class="ControlPassword">
+                    <div class="weak">faible</div>
+                    <div class="moderate">moyen</div>
+                    <div class="strong">fort</div>
+                </div>
+                <!-- Password confirm -->
+                <label for="password-confirm">Confirmez le mot de passe</label>
+                <div class="FormInput">
+                    <input type="password" name="signInPasswordConfirm" id="password-confirm" placeholder="Confirmez le mot de passe" data-check="invalid">
+                    <img id="confirm-success" src="success_icon.svg" alt="Success icon" class="ControlIcon">
+                    <img id="confirm-invalid" src="invalid_icon.svg" alt="Invalid icon" class="ControlIcon">
+                </div>
+                <p id="confirm-control-text" class="ControlText">Mots de passe différents.</p>
+                <!-- Submit -->
+                <input type="submit" id="sign-in-button" value="Création du compte">
+            </form>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

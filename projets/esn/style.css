@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_video{
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: static;
+    position: relative;
+}
+
+.video_text{
+    font-family: sans-serif;
+}
+
+.icone{
+    width: 80px;
+    height: 80px;
+}
+
+
+.third_section{
+    font-size: sans-serif;
+}
+
+.parallax{
+    background-image: url('src/parallax.jpg');
+    width: 100%;
+    height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-dark:hover{
+    background-color: #fff !important;
+    color:black !important;
+}
+
+.btn-warning:hover{
+    background-color: #fff !important;
+    color:black !important;
+}
+
+.btn-primary:hover{
+    background-color: #fff !important;
+    color:black !important;
+}
+
+.btn-light:hover{
+    background-color: black !important;
+    color: #fff !important;
+}
+
+.btn-boost:hover{
+    opacity: 0.8 !important;
+}
+
+.btn-pricing:hover{
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.btn-pricing-warning:hover{
+    background-color: black !important;
+    color: #fff !important;
+}

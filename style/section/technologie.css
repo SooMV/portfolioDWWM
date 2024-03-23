@@ -1,0 +1,242 @@
+.title_techno{
+    font-size: 36px;
+    text-align: center;
+    font-weight: var(--epaisseur);
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.container_techno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph_techno{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    line-height: 2;
+    font-size: 20px; 
+    font-weight: var(--epaisseur);
+}
+.content_thumbnail_techno{
+    width: 150px;
+    height: 150px;
+    border-radius: 36px 36px 36px 36px;
+    border: 1px solid lightgray;
+    border-radius: 36px ;
+    background-color: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail_techno{
+    width: 120px;
+    height: 120px;
+}
+
+.container_thumbnail_techno{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/*Projets */
+
+.view_project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cards{
+    width: 500px;
+    height: 630px;
+    margin-top: 50px;
+}
+.top{
+    max-width : 100%;
+    border-radius: 36px 36px 36px 36px;
+    border: 1px solid lightgray;
+    border-radius: 36px ;
+    background-color: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bottom{
+    margin: 25px;
+}
+.techno{
+    width: 100%;
+    height: 10px;
+    border: 1px solid #313131;
+    border-radius: 4px;
+    padding: 5px; 
+    
+}
+.items1{
+    background-color: rgb(254, 205, 47);
+}
+.items2{
+    background-color: rgb(0, 168, 107);
+    color: #fff 
+}
+.items3{
+    background-color: rgba(161, 0, 226, 0.8);
+    color: #fff 
+}
+.items4{
+    background-color: #E6DAC6;
+    color: #000; 
+}
+.items5{
+    background-color: #005A9C;
+    color: #fff;
+}
+.items6{
+    background-color: crimson;
+    color: #fff;
+}
+
+.title_card {
+    margin-top: 50px;
+    font-weight: var(--epaisseur);
+    text-align: center;
+}
+.paragraph_card, :nth-child(1){
+    text-align: center;
+}
+.btn{
+    
+    background-color: #000;
+    color:#fff;
+    width: 150px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.view_project_back{
+    width: 55vw;
+    height: 35vw;
+    display: block;
+    margin: 0 auto;
+    
+}
+.title_project_back{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: var(--epaisseur);
+}
+.img_project_back{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.parallax_3 {
+    background-image: url('/img/parallax3.png');
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 300px;
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+    .parallax_2, .parallax_3{
+        height: 150px;  
+    } 
+    .title_techno{
+        font-size: 1em;
+        width: 150px;
+        margin-top: 20px;
+    }
+    .front-end{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .paragraph_techno{
+        font-size: 12px;
+        text-align: center;
+        width: 50vw;
+    }
+    .container_thumbnail_techno{
+        flex-direction: column;
+        height: 680px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_thumbnail_techno{
+        width: 90px;
+        height: 90px;
+        border-radius: 16px;
+    }
+    .thumbnail_techno{
+        width: 70px;
+        height: 70px;
+    }
+    .view_project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .cards{
+        width: 250px;
+        height: 115px;
+      
+    }
+   
+    .top{
+        border-radius: 10px;
+    }
+    .back-end{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    .view_project_back{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 200px;
+        
+    }
+    .title_project_back{
+        text-align: justify;
+        font-size: 12px;
+    }
+    .img_project_back{
+        width: 90vw;
+        height: 70vw;
+        
+    }
+}
+@media  (min-width: 2459px){
+    .view_project{
+        gap: 5vw;
+    }
+    .paragraph_techno{
+        font-size: 30px;
+        width: 70%;
+    }
+    .title_project_back{
+        font-size: 30px;
+    }
+}
