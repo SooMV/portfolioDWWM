@@ -150,8 +150,7 @@
 }
 @media(width: 768px){
    .view_project{
-        gap: 20vh;
-        margin-bottom: 40vh;
+        gap: 20vh !important;
    }
    .container_thumbnail_techno{
     height: 130vh !important;
@@ -211,7 +210,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 50vh;
+        gap: 50px;
     }
     .cards{
         width: 250px;
@@ -227,7 +226,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 50vh;
+        margin-top: 300px;
        
     }
     .view_project_back{
