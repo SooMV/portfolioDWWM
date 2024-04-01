@@ -7,6 +7,7 @@
 @import url('section/technologie.css'); 
 @import url('section/contact.css'); 
 @import url('section/projets.css'); 
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 
 
 
@@ -19,4 +20,6 @@
     --epaisseur: 250;
     --blanc: #fff;
     --noir: #000;
+    --Racing: "Racing Sans One", sans-serif;
 }
+
