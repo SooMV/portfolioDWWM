@@ -250,8 +250,11 @@ button{
 }
 
 @media(width: 768px){
-  .content, .container-left-form {
-    margin-top:15vh;
+   
+  .container_homepage{
+    height: 150vh !important;
+  }.container-left-form {
+    margin-top:25vh;
   }
   .first_title_left_round, .second_title_left_round{
       font-size: 2.8em !important;
@@ -263,6 +266,7 @@ button{
   }
   .content{
     width: 500px !important;
+    margin:15vh;
   }
   .container_thumbnail{
     height: 500px !important;
