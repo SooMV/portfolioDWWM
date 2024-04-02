@@ -10,19 +10,26 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <a class="navbar_link" href="index.html#section1">Accueil</a>
+        <nav class="navbar" id="section1">
+          <div class="container_navbar_link">
+            <a class="navbar_link" href="#section1">Accueil</a>
             <a class="navbar_link" href="projet.html">Portfolio</a>
-            <a class="navbar_link" href="index.html#section2">Profil</a>
-            <a class="navbar_link" href="index.html#section4">Contact</a>
+            <a class="navbar_link" href="#section2">Profil</a>
+            <a class="navbar_link" href="#section4">Contact</a>
             
-            <div class="nav-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <div class="container_menu_burger">
+            <button class="hamburger">
+              <div class="bar"></div>
+            </button>
+          </div>
         </nav>
     </header>
+    <nav class="mobile-nav">
+        <a class="navbar_link" href="#section1">Accueil</a>
+        <a class="navbar_link" href="projet.html">Portfolio</a>
+        <a class="navbar_link" href="#section2">Profil</a>
+        <a class="navbar_link" href="#section4">Contact</a>
+    </nav>
     <div>
 
         <h1 class="title">Bienvenue, je vais vous présentez des projets réalisée au cours de ma formation de developpeur web</h1>

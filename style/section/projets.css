@@ -62,7 +62,6 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
     margin: 100px auto;
     font-family: var(--Noto);
     font-weight: var(--epaisseur);
@@ -162,7 +161,7 @@ nav{
     .container_cards{
         display: flex;
         flex-direction: column;
-       
+       gap: 200px;
     }
     .cards{
         width: 70vw;

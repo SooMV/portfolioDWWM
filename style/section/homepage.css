@@ -249,34 +249,6 @@ button{
     cursor: pointer;  
 }
 
-@media(min-width: 768px) and (max-width: 1023px){
-   
-  .container_homepage{
-    height: 150vh !important;
-  }.container-left-form {
-    margin-top:25vh;
-  }
- 
-  .content{
-    width: 500px !important;
-    margin:15vh;
-  }
-  .container_thumbnail{
-    height: 500px !important;
-    width: 500px !important;
-    margin-bottom: 30vh !important;
-  }
-  .content_thumbnail{
-      width: 180px !important;
-      height: 180px !important;
-      border-radius: 32px !important;
-  }
-  .thumbnail{
-      width: 140px !important;
-      height: 140px !important;
-  }
-
-}
 @media (min-width: 320px) and (max-width: 1023px) {
     .container_homepage{
       flex-direction: column;
@@ -373,7 +345,7 @@ button{
     width: 60%;
 }
 .button_left_round{  
-    width: 15vw;
+    width: 10vw;
     height: 5rem;
     font-size: 2.2rem;
     
