@@ -249,21 +249,14 @@ button{
     cursor: pointer;  
 }
 
-@media(width: 768px){
+@media(min-width: 768px) and (max-width: 1023px){
    
   .container_homepage{
     height: 150vh !important;
   }.container-left-form {
     margin-top:25vh;
   }
-  .first_title_left_round, .second_title_left_round{
-      font-size: 2.8em !important;
-  }
-  .button_left_round{  
-    font-size: 20px !important;
-    width: 30vw;
-    height: 50px !important;
-  }
+ 
   .content{
     width: 500px !important;
     margin:15vh;
@@ -297,7 +290,7 @@ button{
     }
     .left-form{
       position: absolute;
-      width: 70%; 
+      width: 300px; 
     }
     
     .first_title_left_round{
@@ -308,7 +301,7 @@ button{
         width: 80%;
     }
     .button_left_round{  
-        width: 30vw;
+        width:200px;
         height: 1.5rem;
         font-size: 1rem;
     }

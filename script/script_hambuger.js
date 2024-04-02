@@ -6,8 +6,7 @@ window.onload = function () {
     
     let windowWidth = window.innerWidth; 
 
-    if (innerWidth >= 200 && windowWidth <= 1024 ){
-        
+    if (innerWidth >= 200 && windowWidth <= 1024 ){   
         menu_btn.addEventListener('click', function() {
         menu_btn.classList.toggle('is-active');
         mobile_menu.classList.toggle('is-active');
