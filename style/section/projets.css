@@ -161,7 +161,7 @@ nav{
     .container_cards{
         display: flex;
         flex-direction: column;
-       gap: 200px;
+       gap: 250px;
     }
     .cards{
         width: 70vw;
@@ -171,8 +171,9 @@ nav{
     .top{
         border-radius: 5vw;
     }
-     
-     
+    .container_color_footer{
+        margin-top: 350px;
+    }
     .content_black_footer{
         height: 65vh;
         width: 100%;
